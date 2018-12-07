@@ -37,12 +37,6 @@ function closeModal(e) {
 	modal.style.display = "none";
 }
 
-function clickOutside(e) {
-	if (e.target == modals) {
-		modals.style.display = "none";
-	}
-}
-
 function continue_() {
 	window.open('index2.html', '_self');
 }
